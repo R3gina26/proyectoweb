@@ -1,0 +1,93 @@
+/*Estilo para todo el documento*/
+body{
+	background: #ffccf6;
+	font-family: Tahoma;
+	font-size: 11px;
+	width: 1200px;
+	margin: auto;
+}
+/*Estilo para la imagen arriba*/
+#logo{
+	background:url("logo.png")no-repeat right;
+	margin: 0 auto;
+	background-size: 100%;
+	padding: 20em 0em 0em 0em;
+	text-transform: uppercase;
+}
+/*Estilo para la etiqueta incluida en H1*/
+#logo h1 a{
+	background: rgba(0, 0, 0, 0.5);
+	margin: 0em;
+	padding: 0em 0em 0em 0em;
+	letter-spacing: -.1em;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+	color: #ffffff;
+}
+/*Estilo para el subtitulo "BIENVENIDOS A NUESTRO SITIO WEB"*/
+#subtitulo{
+	background: rgba(0, 0, 0, 1.2);
+	padding: 0em;
+	margin-top: -1em;
+	font-size: 1.5em;
+	color: #fff;
+}
+/*Estilo para los elementos de la lista del menu*/
+#menu li{
+	display: inline-block;
+}
+/*Estilo para la etiqueta del Menu de opciones*/
+#menu a{
+	display: block;
+	float: left;
+	margin-right: 0.12em;
+	padding: 1em 1.5em;
+	background: #cc2e89;
+	box-shadow: inset 0px -2px 0px 0px
+	rgba(0,0,0,0.25);
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #0C749C;
+	text-transform: uppercase;
+	font-size: .90em;
+	color:#FFFFFF;
+}
+/*Estilo para la seccion que muestra el contenido*/
+#seccion{
+	width:1150px;
+	padding:20px 40px;
+	background:#FFF;
+	height:290px;
+	border: black 2px solid;
+}
+/*Estilo para la imagen que se encuentra dentro de la seccion*/
+#imagen{
+	margin-top: 2em;
+	width: 330px;
+	height: 250px;
+	text-align: center;
+	border: black 2px solid;
+}
+/*Estilo para el titulo dentro de la seccion*/
+#subtitulo2{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 25px;
+	color: #039;
+}
+/*Estilo para el texto del lado derecho*/
+#ladoderecho{
+	margin: .5px 20px 0px 0px;
+	float: right;
+	width: 65%;
+	text-align:justify;
+	color: #666;
+}
+/*Estilo para el pie de documento*/
+#pie{
+	text-align: center;
+}
+/*Estilo para todo los parrafos del documento*/
+p{
+	font-family: Tahoma;
+	font-size: 11pt;
+}
